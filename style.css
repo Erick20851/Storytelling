@@ -52,15 +52,15 @@ body {
   border-radius: 6px;
   transition: transform 0.2s ease;
 }
-
-.story:hover {
-  transform: translateY(-4px);
-}
-
-.story h2 {
+.story a {
   color: #ff4c4c;
-  margin-bottom: 10px;
+  text-decoration: none;
 }
+
+.story a:hover {
+  text-decoration: underline;
+}
+
 
 .cta {
   text-align: center;
